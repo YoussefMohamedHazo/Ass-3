@@ -10,7 +10,7 @@ ul {
 }
 
 .container {
-    width: 80%;
+    max-width: 80%;
     margin: auto;
 }
 
@@ -25,7 +25,7 @@ body {
     display: inline-block;
     width: 100%;
     background-image: url(../imgs/home.jpg);
-    height: 100vh;
+    height: 85vh;
     background-size: cover;
     background-position: center center;
 }
@@ -35,14 +35,15 @@ body {
 
 }
 
+.section_one .nav_img {
+  width: 49%;
+  display: inline-block;
+} 
 .section_one .nav_img img {
     width: 30%;
 }
 
-.section_one .nav_img {
-    width: 49%;
-    display: inline-block;
-}
+
 
 .section_one .nav_content {
     width: 49%;
@@ -136,13 +137,13 @@ body {
     text-transform: capitalize;
 }
 
-/*   section tow*/
-.section_tow {
+/*   section_two*/
+.section_two {
     margin: 0px;
     padding: 50px 0px;
 }
 
-.section_tow .img_cake {
+.section_two .img_cake {
     width: 48%;
     display: inline-block;
     vertical-align: top;
@@ -156,7 +157,7 @@ body {
     vertical-align: top;
 }
 
-.section_tow .content_cake {
+.section_two .content_cake {
     width: 48%;
     display: inline-block;
     vertical-align: top;
@@ -167,14 +168,14 @@ body {
 
 }
 
-.section_tow .content_cake h2 {
+.section_two .content_cake h2 {
     color: #303030;
     font-size: 30px;
     margin: 0px 0px 25px;
     font-weight: 400;
 }
 
-.section_tow .content_cake p {
+.section_two .content_cake p {
     color: RGB(104, 104, 104);
     font-size: 17px;
     line-height: 31.62px;
